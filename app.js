@@ -16,7 +16,7 @@ btn.addEventListener('click', () => {
     let colorChange = colorGenerator()
     document.body.style.backgroundColor = colorChange
     title.textContent = colorChange 
-    // btn.style.backgroundColor = colorChange
+    btn.style.backgroundColor = colorChange
     // div.style.backgroundColor = colorChange
 
 })
